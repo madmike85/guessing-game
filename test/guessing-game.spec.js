@@ -32,6 +32,7 @@ describe('#guess', () => {
         game.lower();
         result = game.guess();
 
+        console.log(result);
         expect(result).to.equal(number);
     });
 
